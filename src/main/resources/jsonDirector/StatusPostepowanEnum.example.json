@@ -1,0 +1,8 @@
+{
+  "dictionaryId":"StatusPostepowanEnum",
+  "validFrom":"2020-07-21T18:25:43+02:00",
+  "validTo":null,
+  "version":"Wersja 1.0",
+  "language":"PL",
+  "items":["W przygotowaniu","Anulowane","Wszczęte","Unieważnione","Zawarta umowa", "Zawieszone"]
+}
