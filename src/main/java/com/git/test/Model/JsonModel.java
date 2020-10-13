@@ -1,7 +1,8 @@
 package com.git.test.Model;
 
-import java.util.List;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+import java.util.List;
 
 public class JsonModel {
 
@@ -11,6 +12,10 @@ public class JsonModel {
     private String version;
     private String language;
     private List items;
+
+    public JsonModel(String dictionaryId) {
+         this.dictionaryId = dictionaryId;
+    }
 
 
     public List getItems() {
