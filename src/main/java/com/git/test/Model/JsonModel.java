@@ -17,6 +17,9 @@ public class JsonModel {
          this.dictionaryId = dictionaryId;
     }
 
+    JsonModel() {
+
+    }
 
     public List getItems() {
         return items;
